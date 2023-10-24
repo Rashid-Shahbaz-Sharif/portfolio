@@ -160,6 +160,9 @@ button {
   -webkit-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
+  background-color: var(--bg-dark-blue);
+  -webkit-box-shadow: 0 4px 6px 0 rgba(12, 0, 46, 0.05);
+  box-shadow: 0 4px 6px 0 rgba(12, 0, 46, 0.05);
 }
 
 .header_wrapper .navbar-brand img {
@@ -241,7 +244,7 @@ button {
 .about-wrapper ul.nav-pills {
   border: 1px solid var(--gray-color);
   border-radius: 50px;
-  padding: 5px;
+  padding: 5px 25px;
 }
 .about-wrapper ul li .nav-link {
   border-radius: 50px;
@@ -296,6 +299,10 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.about-wrapper .skills .skills-list{
+  column-count: 3;
+  column-gap: 40px;
 }
 .about-wrapper .skills li {
   font-weight: 500;
