@@ -33,6 +33,10 @@
   .portfolio-wrapper .card {
     min-height: 400px;
   }
+  .about-wrapper .skills .skills-list {
+    column-count: 2;
+    column-gap: 40px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -47,7 +51,7 @@
     font-size: 13px;
     line-height: 24px;
   }
-  .banner_wrapper{
+  .banner_wrapper {
     padding: 200px 0px 0px 0px;
     min-height: 600px;
   }
@@ -78,4 +82,12 @@
   .portfolio-wrapper .portfolio-pills li {
     text-align: center;
   }
+  .about-wrapper .skills{
+    justify-content: center;
+  }
+  .about-wrapper .skills .skills-list {
+    column-count: 1;
+    column-gap: 0px;
+    text-align: center !important;
+}
 }
