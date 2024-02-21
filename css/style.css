@@ -429,3 +429,15 @@ button {
 .footer-wrapper .copyright-text a {
   color: var(--primary-color);
 }
+
+
+.site-creds{
+      margin-top: 16px;
+}
+.site-creds h6, .site-creds p{
+  text-align: left;
+margin-bottom: 5px;
+}
+.portfolio-wrapper .card-col {
+    margin-bottom: 130px;
+}
